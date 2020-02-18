@@ -6,6 +6,9 @@ color: #FFFFFF;
 margin: 0;
 }
 
+h1, h2 {
+  text-transform: uppercase;
+}
 
 a {
 	font-family: "Raleway";
@@ -16,7 +19,9 @@ a {
 	margin: 0 20px 0 20px;
 	border-bottom: 2px solid transparent;
 	text-decoration: none;
+	text-transform: uppercase;
 }
+
 
 body {
 text-align: center;
@@ -41,7 +46,7 @@ header{
 nav{
 	background-color:#00A6B3;
 	font-color:#FFFFFF;
-	padding: 20px;
+	padding: 20px 0;
 }
 
 main{
@@ -61,6 +66,9 @@ footer{
 	font-size: 14px;
 	letter-spacing:.08em;
 	font-weight:500;
+}
+#reset{
+	float:right;
 }
 
 .copyright{
